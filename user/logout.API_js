@@ -1,0 +1,1 @@
+{"POST":"let sessionUser = session('user');\r\n\r\nif(!sessionUser){\r\n  write('msg', 'Not logged in');\r\n  exit();\r\n}\r\n\r\nsession.close();\r\nwrite('msg', 'Logout successful');","META":{"language":"JavaScript"}}

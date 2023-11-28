@@ -1,0 +1,1 @@
+{"GET":"let exerciseId = param('exerciseId', null);\r\n\r\nlet exerciseIdParam = {\r\n  exercises_id: exerciseId,\r\n}\r\n\r\nlet exercise = db.query(`SELECT\r\n  exercises_description\r\nFROM\r\n  exercises\r\nWHERE\r\n  exercises_id = :exercises_id;`, exerciseIdParam);\r\n\r\n\r\n\r\nwrite(\"Description\", exercise);","META":{"language":"JavaScript"}}

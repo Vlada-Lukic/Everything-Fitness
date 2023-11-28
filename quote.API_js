@@ -1,0 +1,1 @@
+{"GET":"\r\nlet quote = db.query(`SELECT quotes FROM motivational_quotes\r\nORDER BY RAND()\r\nLIMIT 1;`);\r\n\r\n\r\nwrite(\"quote\", quote);","META":{"language":"JavaScript"}}

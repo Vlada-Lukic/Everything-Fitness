@@ -1,0 +1,1 @@
+{"GET":"let userId = param('userId', null);\r\n\r\n\r\n\r\nlet plan = db.query(`SELECT plan_id, plan_name\r\nFROM workout_plan\r\nWHERE user_id = ?;`, userId);\r\n\r\n\r\n\r\nwrite(\"exerciseList\", plan);\r\n","META":{"language":"JavaScript"}}

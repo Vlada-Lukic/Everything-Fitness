@@ -1,0 +1,1 @@
+import{_ as e,b as s,u as r}from"./index-b1a8d95c.js";const u={setup(){const t=s();return r(),t.push("/"),alert("Successfully Logged Out"),{}}};function o(t,c,n,a,p,_){return null}const l=e(u,[["render",o]]);export{l as default};

@@ -1,0 +1,1 @@
+{"GET":"let sessionUser = session('user');\r\n\r\n//if session is not valid throw an error\r\nif(!sessionUser){\r\n  write('msg', 'Session not valid');\r\n  exit();\r\n};\r\n\r\nwrite('msg', 'session ok');","META":{"language":"JavaScript"}}
